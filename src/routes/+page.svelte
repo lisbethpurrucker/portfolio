@@ -1,2 +1,6 @@
-<h1>lisbeth purrucker</h1>
-<p>portfolio</p>
+<script>
+	import Main from '../components/Main.svelte';
+</script>
+
+
+<Main />
