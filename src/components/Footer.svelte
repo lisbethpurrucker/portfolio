@@ -1,0 +1,1 @@
+<p>Coded in <strong>Visual Studio Code</strong>, built with <strong>Svelte</strong> and <strong>Tailwind CSS</strong>, deployed with <strong>AWS</strong>.</p>

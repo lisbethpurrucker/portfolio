@@ -1,0 +1,1 @@
+<p>Passionate about fostering environmental and social impact, I actively seek collaborations with brands and projects that align with these values, while also supporting female-founded/led and LGBTQI+ initiatives. Together, we work towards a better future, leveraging my expertise as a Fullstack Developer and active member of the queer and social tech community.</p>
