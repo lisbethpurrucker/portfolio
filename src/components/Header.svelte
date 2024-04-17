@@ -15,12 +15,12 @@
 	<ul class="flex gap-2">
 		<li>
 			<a href="https://github.com/lisbethpurrucker/">
-				<i class="fab fa-github"></i>
+				<i class="fab fa-github text-air-blue"></i>
 			</a>
 		</li>
 		<li>
 			<a href="https://www.linkedin.com/in/lisbethpurrucker/">
-				<i class="fab fa-linkedin-in"></i>
+				<i class="fab fa-linkedin-in text-air-blue"></i>
 			</a>
 		</li>
 	</ul>

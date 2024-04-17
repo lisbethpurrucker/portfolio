@@ -12,10 +12,10 @@
       title: "Quouch - CTO & Fullstack Developer",
       description: "Provide leadership in technical decision making. Designed, developed, shipped and now maintain production code for our web application which is now used by 5000+ users worldwide.",
       skills: [
-        "Ruby on Rails",
         "HTML",
         "SCSS",
         "Stimulus",
+        "Ruby on Rails",
         "Stripe API",
         "Heroku"
       ]
@@ -28,10 +28,13 @@
         "HTML",
         "CSS",
         "JavaScript",
+        "OOP",
         "SQL",
         "Ruby",
         "Ruby on Rails",
-        "Templating"
+        "Templating",
+        "AJAX",
+        "Heroku"
       ]
     },
     {
@@ -69,9 +72,9 @@
         <span class="text-sm/6">{job.duration}</span>
         <h3 class="text-lg/8">{job.title}</h3>
         <p>{job.description}</p>
-        <ul>
+        <ul class="flex flex-wrap gap-1 items-center mt-3">
           {#each job.skills as skill}
-            <li>{skill}</li>
+            <li class="bg-air-blue text-sm text-white rounded-2xl py-1 px-3">{skill}</li>
           {/each}
         </ul>
       </li>
