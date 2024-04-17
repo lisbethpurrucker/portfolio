@@ -1,5 +1,6 @@
 <script>
 	  import Job from '../components/Job.svelte';
+	  import Project from '../components/Project.svelte';
 </script>
 
 <section class="my-6" id="about">
@@ -8,45 +9,9 @@
 </section>
 
 <Job />
+<Project />
 
-<section class="my-6" id="projects">
-	<h2 class="text-xl/8 font-bold">Projects</h2>
-	<ul>
-		<a href="https://quouch-app.com">
-			<li>
-				<img src="" alt="">
-				<h3>Quouch</h3>
-				<p>Web app offering couchsurfing experience and travel space to queer community. Features built: booking, review, chat, map through Mapbox API, payment through Stripe API.</p>
-			</li>
-		</a>
-		<a href="https://cuba-buddy.de/">
-			<li>
-				<img src="" alt="">
-				<h3>Cuba Buddy</h3>
-				<p>Website of tourism start up. </p>
-			</li>
-		</a>
-		<a href="https://destination-heroes.com/">
-			<li>
-				<img src="" alt="">
-				<h3>Destination Heroes</h3>
-				<p></p>
-			</li>
-		</a>
-		<a href="https://factful-selling.com/">
-			<li>
-				<img src="" alt="">
-				<h3>Factful</h3>
-				<p></p>
-			</li>
-		</a>
-		<li>
-			<img src="" alt="">
-			<h3>Touristenkarten/Visa Shop</h3>
-			<p></p>
-		</li>
-	</ul>
-</section>
+
 <section class="my-6" id="yoga">
 	<h2 class="text-xl/8 font-bold">Yoga</h2>
 	<p>The practice of yoga has been the biggest part of my life besides coding. When I first got into it in 2019, I had to step back from intense exercise and honestly just saw it as a way of movement without stretching my physical abilities. It quickly became an anchor in my life whenever I need grounding. I practice physical yoga on a daily basis, but more importantly do I practice yoga with every breath I take.</p>

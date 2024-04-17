@@ -54,17 +54,17 @@
   ];
 </script>
 
-<section class="my-6" id="experience">
+<section class="my-8" id="experience">
   <h2 class="text-xl/8 font-bold">Experience</h2>
-  <ul>
-    {#each jobs as job, index}
-      <li>
-        <span>{job.duration}</span>
-        <h3>{job.title}</h3>
+  <ul class="mt-2">
+    {#each jobs as job}
+      <li class="mb-6">
+        <span class="text-sm/6">{job.duration}</span>
+        <h3 class="text-lg/8">{job.title}</h3>
         <p>{job.description}</p>
         <ul>
-          {#each job.skills as skill, i}
-            <li key={i}>{skill}</li>
+          {#each job.skills as skill}
+            <li>{skill}</li>
           {/each}
         </ul>
       </li>
