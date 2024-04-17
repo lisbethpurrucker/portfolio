@@ -1,5 +1,12 @@
-<script>
-	let projects = [
+<script lang="ts">
+	interface Project {
+		name: string;
+		description: string;
+		link: string;
+	}
+
+
+	let projects: Project[] = [
 		{
 			name: "Quouch",
 			description: "Web app offering couchsurfing experience and travel space to queer community. Features built: booking, review, chat, map through Mapbox API, payment through Stripe API.",
@@ -22,7 +29,8 @@
 		},
 		{
 			name: "Touristenkarten/Visa Shop",
-			description: ""
+			description: "",
+			link: ""
 		}
 	]
 </script>

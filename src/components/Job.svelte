@@ -1,5 +1,12 @@
-<script>
-  let jobs = [
+<script lang="ts">
+	interface Job {
+    duration: string;
+    title: string;
+    description: string;
+    skills: string[];
+  }
+
+  let jobs: Job[] = [
     {
       duration: "2022 - Present",
       title: "Quouch - CTO & Fullstack Developer",
