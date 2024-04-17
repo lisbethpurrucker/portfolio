@@ -8,9 +8,9 @@
 
   let jobs: Job[] = [
     {
-      duration: "2022 - Present",
-      title: "Quouch - CTO & Fullstack Developer",
-      description: "Provide leadership in technical decision making. Designed, developed, shipped and now maintain production code for our web application which is now used by 5000+ users worldwide.",
+      duration: "2022 - present",
+      title: "Quouch - CTO & fullstack developer",
+      description: "provide leadership in technical decision making. designed, developed, shipped and now maintain production code for our web application which is now used by 5000+ users worldwide.",
       skills: [
         "HTML",
         "SCSS",
@@ -21,9 +21,9 @@
       ]
     },
     {
-      duration: "2021 - Present",
-      title: "Le Wagon - Teacher",
-      description: "Give lectures, support students in challenges, oversee and support development of final projects.",
+      duration: "2021 - present",
+      title: "Le Wagon - teacher",
+      description: "give lectures, support students in challenges, oversee and support development of final projects.",
       skills: [
         "HTML",
         "CSS",
@@ -38,9 +38,9 @@
       ]
     },
     {
-      duration: "2022 - Present",
-      title: "Tech4Girls - Volunteer",
-      description: "Teach coding skills to children, help forge partnerships and secure financial support, lead project kick off with a team of UX designers and web developers for a quiz app - advancing our mission to empower girls and underprivileged children in tech.",
+      duration: "2022 - present",
+      title: "Tech4Girls - volunteer",
+      description: "teach coding skills to children, help forge partnerships and secure financial support, lead project kick off with a team of UX designers and web developers for a quiz app - advancing our mission to empower girls and underprivileged children in tech.",
       skills: [
         "HTML",
         "CSS",
@@ -50,8 +50,8 @@
     },
     {
       duration: "2021 - 2022",
-      title: "Travel Buddies GmbH - Web Developer",
-      description: "Built and maintained critical components across the whole product portfolio. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      title: "Travel Buddies GmbH - web developer",
+      description: "built and maintained critical components across the whole product portfolio. work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
       skills: [
         "HTML",
         "SCSS",
@@ -65,7 +65,7 @@
 </script>
 
 <section class="my-8" id="experience">
-  <h2 class="text-xl/8 font-bold">Experience</h2>
+  <h2 class="text-xl/8 font-bold">experience</h2>
   <ul class="mt-2">
     {#each jobs as job}
       <li class="mb-6">

@@ -9,12 +9,12 @@
 	let projects: Project[] = [
 		{
 			name: "Quouch",
-			description: "Web app offering couchsurfing experience and travel space to queer community. Features built: booking, review, chat, map through Mapbox API, payment through Stripe API.",
+			description: "web app offering couchsurfing experience and travel space to queer community. features built: booking, review, chat, map through Mapbox API, payment through Stripe API.",
 			link: "https://quouch-app.com"
 		},
 		{
 			name: "Cuba Buddy",
-			description: "Website of tourism start up.",
+			description: "website of tourism start up selling individualized trips to Cuba. features built, maintained or improved:",
 			link: "https://cuba-buddy.de/"
 		},
 		{
@@ -36,7 +36,7 @@
 </script>
 
 <section class="my-6" id="projects">
-	<h2 class="text-xl/8 font-bold">Projects</h2>
+	<h2 class="text-xl/8 font-bold">projects</h2>
 	<ul>
 		{#each projects as project}
 			<a href={project.link}>
